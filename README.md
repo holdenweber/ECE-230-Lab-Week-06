@@ -25,8 +25,12 @@ adder in the boolean circuit.
 
 ### 2 - What is the importance of the XOR gate in an adder?
 The XOR gate is important in an adder because it controlls when the
-output of sum in the adder is one or zero. 
+output of sum in the adder is one or zero. The XOR gate calculates 
+the addition part of the adder which generates the output for the
+particular bit. 
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
 The largest number a two bit adder can hangle is 3, or else it will go over. 
 When an adder goes over, it overflows which causes an error that should be reported.
+If the carryout if included, then the largest number a two-bit adder can handle is 6
+because the two highest numbers that can be added are 3 and 3. 
